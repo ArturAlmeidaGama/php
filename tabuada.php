@@ -19,4 +19,4 @@ class Tabuada
 }
 
 $tabuada = new Tabuada();
-$tabuada->conta();
+$tabuada->conta();//teste
