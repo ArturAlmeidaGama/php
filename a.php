@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 $xName = $_POST['name'];
@@ -28,3 +29,7 @@ $_SESSION['email'] = $xEmail;
 echo $_SESSION['name'];
 
 echo $_SESSION['email'];
+=======
+<?php
+
+>>>>>>> 45f25c7df8a2ebe6d16888e268ea4dd77e8372ff
