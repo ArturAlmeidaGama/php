@@ -1,30 +1,23 @@
 <?php
 
-$xName = $_POST['name'];
-$xEmail = $_POST['email'];
-$xPassword = $_POST['password'];
+$name = $_POST['name'];
+$email = $_POST['email'];
+$password = $_POST['password'];
 
-// echo $xName;
+ echo $name;
+ echo '<br>';
+ echo $email;
+ echo '<br>';
+ echo $password;
 
-// echo '<br>';
-
-// echo $xEmail;
-
-// echo '<br>';
-
-// echo $xPassword;
-
-// setcookie('name', $xName);
-// setcookie('email', $xEmail);
-// setcookie('password', $xPassword);
+ setcookie('name', $name);
+ setcookie('email', $email);
+ setcookie('password', $password);
 
 session_start();
 
-$_SESSION['name'] = $xName;
-
-$_SESSION['email'] = $xEmail;
-
+$_SESSION['name'] = $name;
+$_SESSION['email'] = $email;
 
 echo $_SESSION['name'];
-
 echo $_SESSION['email'];
